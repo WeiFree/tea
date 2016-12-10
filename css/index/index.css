@@ -1,0 +1,365 @@
+body{
+	background: white;
+}
+.cha-nav{
+	height: 100px;
+}
+.cha-nav header{
+	height: 100%;
+}
+.cha-nav header nav{
+	height: 100%;
+}
+.cha-nav header nav div{
+	margin-top: 10px;
+}
+.cha-nav .navbar > .container-fluid .navbar-brand {
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+
+.cha-nav header .navbar-left li{
+	width: 100px;
+	text-align: center;
+	height: 60px;
+	margin-right:2px;
+}
+.cha-nav header .navbar-left li:last-child{
+	margin-right:0 ;
+}
+.cha-nav header .navbar-left li a:hover{
+	color: #009900;	
+}
+.cha-nav header .navbar-left li a.active{
+	color: #009900;	
+}
+.cha-nav header .navbar-right li{
+	margin-top: 10px;
+}
+
+/*轮播图*/
+.carousel-box .carousel-caption{
+	 position: absolute; 
+    right:0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+     padding-top: 0px; 
+     padding-bottom: 0px; 
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.main-container {
+  padding: 3px 15px 10px;
+}
+.skyblue {
+    background-color:transparent;
+}
+.deepskyblue {
+    background-color: transparent;
+}
+.darkerskyblue {
+    background-color:transparent;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+.carousel .item {
+	min-height: 500px;
+    height: 100%;
+    width:100%; 
+}
+@media only screen and (max-width: 746px) {
+.carousel .item {
+	min-height: 150px;
+ 
+    height: 100%;
+    width:100%; 
+}	
+}
+.carousel .icon-container,
+.carousel-caption button {
+    background-color: #09c;
+}
+
+.carousel .icon-container {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 50%;
+}
+.carousel-caption  {
+    width: 100%;
+    height: 100%;
+}
+
+/* Animation delays */
+.carousel-caption img{
+    animation-delay: .5s;
+    width: 100%;
+    height: 100%;
+}
+/*--轮播图结束*/
+/*茶类*/
+.tea-list{
+	position: relative;
+	margin: 50px auto;
+    width: 80%;
+    height: 200px
+}
+.tea-list ul{
+	position: absolute;
+    left: 0;
+    top:120px;
+    width: 105%;
+}
+.tea-list ul li{
+	float: left;
+    height: 100px;
+}
+.tea-list ul li a{
+	transition: all 0.2s ease; 
+	display: block;
+	margin: 0 auto;
+    width: 94px;
+    height: 68px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../../img/index/tea-icon.png) no-repeat;
+}
+.tea-list ul li a.i1{
+	background-position: 0 0;
+}
+.tea-list ul li a.i1:hover{
+	background-position: 0 -101px;
+}
+.tea-list ul li a.i2{
+	background-position: -95px 0;
+}
+.tea-list ul li a.i2:hover{
+	background-position: -95px -101px;
+}
+.tea-list ul li a.i3{
+	background-position: -190px 0;
+}
+.tea-list ul li a.i3:hover{
+	background-position: -190px -101px;
+}
+.tea-list ul li a.i4{
+	background-position: -380px 0;
+}
+.tea-list ul li a.i4:hover{
+	background-position: -380px -101px;
+}
+.tea-list ul li a.i5{
+	background-position: -285px 0;
+}
+.tea-list ul li a.i5:hover{
+	background-position: -285px -101px;
+}
+.tea-list ul li a.i6{
+	background-position: -475px 0;
+}
+.tea-list ul li a.i6:hover{
+	background-position: -475px -101px;
+}
+/*茶文化*/
+.tea-culture{
+	margin-top: 30px;
+	line-height: 1.8;
+    padding: 0;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+.tea-culture p{
+	text-align: center;
+}
+.word{
+	font-family: 微软雅黑;
+    font-size: 30px;
+    color: #333333;
+}
+@media (max-width:480px) {
+	.tea-culture{
+		margin-top: 150px;
+	}
+}
+.kuang{
+	text-align: center;
+	line-height: 2em;
+	padding-top: 75px;
+	width: 100%;
+	height: 450px;
+	background: url(../../img/index/kuang.jpg) center -150px no-repeat; 
+}
+.pword{
+	opacity: 1;
+    -webkit-animation: fadeIn 1.5s ease 1.5s both;
+    -moz-animation: fadeIn 1.5s ease 1.5s both;
+    animation:fadeIn  1.5s ease 1.5s both;
+}
+.fix-box{
+	position: relative;
+}
+.fix1{
+	width: 100%;
+	height: 400px;
+	background: url(../../img/index/fix2.jpg) no-repeat fixed;
+}
+.fix1-word{
+	opacity: 1;
+    -webkit-animation: fadeInLeft 2.5s ease 1.5s ;
+    -moz-animation: fadeInLeft 2.5s ease 1.5s ;
+    animation:fadeInLeft  2.5s ease 1.5s ;
+	position: absolute;
+	top:50px;
+	left: 30%;
+}
+.fix1-word p{
+	padding-top: 5px;
+	color: white;
+	font-size: 16px;
+}
+@media(max-width: 789px) {
+.fix1{
+	width: 100%;
+	height: 200px;
+	background: url(../../img/index/fix2.jpg) no-repeat fixed center center;
+	
+}	
+}
+.teapic-box{
+	margin-top: 50px;
+}
+.teapic-top,.teapic-bottom{
+		width: 90%;
+		margin: 0 auto;
+
+}
+.sps{
+	margin-right: -30px;
+}
+.sps2{
+	margin-left: 15px;
+}
+.teapic-bottom{
+		padding-top: 10px;
+}
+
+.teapic-box p{
+	text-align: center;
+	font: 40px "微软雅黑";
+	line-height: 3em;
+	opacity: 1;
+    -webkit-animation: fadeIn 1.5s ease 1.5s both;
+    -moz-animation: fadeIn 1.5s ease 1.5s both;
+    animation:fadeIn  1.5s ease 1.5s both;
+}
+.teatool{
+	margin-top: 50px;
+}
+.fix2{
+	width: 100%;
+	height: 400px;
+	background: url(../../img/index/fix3.jpg) no-repeat fixed;
+}
+.fix2-word{
+	opacity: 1;
+    -webkit-animation: fadeInLeft 2.5s ease  ;
+    -moz-animation: fadeInLeft 2.5s ease  ;
+    animation:fadeInLeft  2.5s ease  ;
+	position: absolute;
+	top:50px;
+	left: 30%;
+}
+.fix2-word p{
+	padding-top: 5px;
+	color: white;
+	font-size: 16px;
+}
+@media(max-width: 789px) {
+.fix2{
+	width: 100%;
+	height: 200px;
+	background: url(../../img/index/fix3.jpg) no-repeat fixed center center;
+	
+}	
+}
+
+.list{
+	border: 5px solid #f4f4f4;
+	margin-top: 20px;
+	cursor: pointer;
+	margin-left: 10px;
+    background-color: #FFF;
+}
+.list-top{
+	position: relative;
+	margin-right: -28px;
+	margin-top: 10px;
+}
+.list-top img{
+	height: 90%;
+    width: 90%;
+}
+.list .word{
+	font: 14px "微软雅黑";
+	transition: all 1s; 
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 100%;
+	background-color: white;
+}
+.list:hover .word{
+	opacity: 1;
+}
+.list-bottom{
+	position: relative;
+    width: 100%;
+    height: 44px;
+    background-color: #FFFFFF;
+}
+.list-bottom img{
+	margin-top: 10px;
+}
+.list-bottom span{
+	display: inline-block;
+   vertical-align: middle;
+    text-align: left;
+    line-height: 44px;
+    font-family: Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin-left: 10px;
+    height: 44px;
+}
+.footer{
+	margin-top: 15px;
+	height: 180px;
+	background: url(../../img/index/footbg.jpg) no-repeat;
+}
+.footer img{
+	padding-top: 30px;
+}
+.footer p{
+	padding-top: 10px;
+	color:#888888;
+	font: 13px "微软雅黑";
+}

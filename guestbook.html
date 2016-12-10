@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>茶T留言</title>
+
+    <!-- Bootstrap -->
+    <!--引入bootstrap的css文件-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="lib/bootstrap-3.3.0-dist/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.offcanvas.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link rel="stylesheet" href="css/guestbook/guestbook.css" />
+	<body>
+		<!-------导航开始-->
+<div class="cha-nav">
+<header class="clearfix">
+            <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <nav class="navbar navbar-default navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-fade" role="navigation" id="js-bootstrap-offcanvas">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html"><img src="img/index/logo.png" width="80" height="50"/></a>
+                        <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="glyphicon glyphicon-remove"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a class="active" href="#">首页</a></li>
+                            <li><a  href="chaku.html">茶库</a></li>
+                            <li><a href="#">茶器</a></li>
+                            <li><a href="zixun.html">茶资讯</a></li>
+                            <li><a href="chatu.html">茶图</a></li>
+                            <li><a href="guestbook.html">留言板</a></li>
+                      
+                        </ul>
+                         <ul class="nav navbar-nav navbar-right hidden-sm" >
+                         	<li> <img src="img/index/wenzi.png"/></li>
+                         </ul>
+                    </div>
+                </div>
+            </nav>
+            </nav>
+       </header>
+        </div>
+        <!-------导航结束-->
+     <div class="container">  
+	<div class="main">
+        	<div class="banxin">
+        		<h3>留言板</h3>
+        		<div class="input">
+        			
+        			<textarea value="有事没事说两句..."></textarea>
+       				<ul class="loginul">
+                    <li class="login"><a href="login.html">您好，请登录！</a></li>
+                     <li class="geren"><s></s><a href="javascript:;" class="userName"></a><div class="logoff"><a href="javascript:;">注销</a></div></li>
+                    <li><a href="register.html">免费注册</a></li>
+                   
+                </ul>
+        			<button class="send"></button>
+        			<button class="clear">清空</button>
+        			
+        			</div>
+        		</div>
+        		<div class="con">
+        			<h5>最新留言</h5>
+        			<ul>
+        				<li>
+        					<span class="username">管理员：</span>
+        					<span class="time">2016年10月12日13:54:30</span>
+        					<p><img src="img/guestbook/12.gif"  />该网页为自主设计网页。可能有些不足，希望大家留言提出改进的地方。</p>
+        					<i></i>
+        					<s></s>
+        					<b></b>
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>	
+		</div> 
+	<div class="container-fluid footer">
+	<div class="container">
+		<center><img src="img/index/footlogo.png"/>
+		<p>(c) Copyright 2016 Administrator. All Rights Reserved. </p>
+		</center>
+		
+	</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/jquery-1.12.4.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.offcanvas.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/guestbook/guestbook.js" ></script>
+</body>
+</html>

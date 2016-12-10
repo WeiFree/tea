@@ -1,0 +1,117 @@
+.bread-nav{
+	height: 600px;
+	margin-top: 15px;
+}
+.bread-nav a{
+	text-decoration: none;
+	color: black;
+}
+.bread-nav a:hover{
+	color:#009900;
+}
+.bigImg img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content{
+	background:white;
+	height: 600px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+.content h1{
+	line-height: 36px;
+    font-size: 30px;
+    color: #222;
+}
+.jg em{
+	font-style: normal;
+    font-family: arial;
+    padding-left: 4px;
+    color: #e34005;;
+}
+.tea{
+	height: 450px;
+	margin-top:15px;
+}
+.lubo{
+	margin-top:15px;
+	height: 62px;
+	margin-left: 10px;
+}
+.price{
+	height: 110px;
+	margin-top: 10px;
+}
+.Summary{
+	height: 200px;
+	margin-top:15px;
+}
+.Summary span{
+	font-size: 26px;
+    line-height: 35px;
+    font-family: simsun,arial,sans-serif;
+    color: #444;
+    display: block;
+    position: relative;
+    top: 15px;
+}
+.del{
+    line-height: 32px;
+    color: #9a9a9a;
+    font-size: 16px;
+    overflow: hidden;
+}
+.attribute{
+	/*height:250px;*/
+	margin-top:10px;
+}
+.brand{
+	height: 80px;
+}
+.jg{
+	position: relative;
+	top: 50px;
+}
+.del{
+	position: relative;
+	top:30px;
+}
+.product{
+    position: relative;
+    margin-top:80px;
+}
+.product ul li{
+	line-height: 32px;
+    color: #9a9a9a;
+    font-size: 16px;
+    overflow: hidden;
+}
+.product01{
+	position: relative;
+	margin-top: 80px;	
+}
+.product01 ul li{
+	line-height: 32px;
+    color: #9a9a9a;
+    font-size: 16px;
+    overflow: hidden;
+}
+.bigImg img{
+	width: 100%;
+	height: 100%;
+}
+.xyd li img{
+	width: 100%;
+	height: 100%;
+	border:1px solid gainsboro ;
+}
+.sx{
+	font-size: 26px;
+    line-height: 35px;
+    font-family: simsun,arial,sans-serif;
+    color: #444;
+    position: relative;
+    top: 15px;
+}

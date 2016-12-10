@@ -1,0 +1,195 @@
+body{
+	background-color:white;
+	font: 16px "微软雅黑";
+	color: black;
+}
+.kind-header-box{
+	margin-top: 5px;
+}
+.kind-header{
+	width: 100%;
+	
+}
+.title{
+	color: #4ab344;
+	font: 2vw "微软雅黑";
+	margin-top: 10px;
+}
+.kind-header img{
+	width: 100%;
+}
+@media(max-width: 768px) {
+	.kind-header img{
+	width: 100%;
+	height: 150px;
+}
+}
+.kind-nav-box dl{
+	width: 100%;
+	padding: 0;
+}
+.kind-nav-box dl dt{
+	border-bottom: dashed 1px #C0C0C0;
+    padding: 10px 18px 10px 15px;
+}
+.kind-nav-box dl dt a{
+	font-weight: 100;
+	color: black;
+	display: inline-block;
+    width: 100%;
+    line-height: 38px;
+    -webkit-transition: all .3s ease-in-out .1s;
+    transition: all .3s ease-in-out .1s;
+}
+.icon{
+	background: url(../../img/chakku/teaword.png) no-repeat;
+	width: 34px;
+    height: 34px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 20px;
+    float: left;
+}
+.i1{
+	background-position: 0 0;
+}
+.kind-nav-box dl dt a:hover .i1{
+	background-position: 0 -34px;
+}
+.i2{
+	background-position: -34px 0;
+}
+.kind-nav-box dl dt a:hover .i2{
+	background-position: -34px -34px;
+}
+.i3{
+	background-position: -68px 0;
+}
+.kind-nav-box dl dt a:hover .i3{
+	background-position: -68px -34px;
+}
+.i4{
+	background-position: -102px 0;
+}
+.kind-nav-box dl dt a:hover .i4{
+	background-position: -102px -34px;
+}
+.i5{
+	background-position: -136px 0;
+}
+.kind-nav-box dl dt a:hover .i5{
+	background-position: -136px -34px;
+}
+.i6{
+	background-position: -170px 0;
+}
+.kind-nav-box dl dt a:hover .i6{
+	background-position: -170px -34px;
+}
+.kind-nav-box dl dt a:hover{
+	color: #a62d00;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.kind-nav-box dl dt a.active{
+	color: #a62d00;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.ihover{
+	background-position-y: -34px;
+}
+.statu{
+	width: 13px;
+    height: 13px;
+    display: inline-block;
+    position: relative;
+    left: 4px;
+    float: right;
+}
+.kind-list-box{
+	margin-right: 20px;
+	border: 1px solid #CCCCCC;
+}
+.list{
+	overflow: hidden;
+	border: 1px solid #f4f4f4;
+	margin-top: 20px;
+	cursor: pointer;
+    background-color: #FFF;
+}
+.list-top{
+	position: relative;
+	margin-right: -28px;
+	margin-top: 10px;
+}
+.list-top img{
+	height: 90%;
+    width: 90%;
+}
+.list .word{
+	font: 14px "微软雅黑";
+	transition: all 1s; 
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 100%;
+	background-color: white;
+}
+.word p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.list:hover .word{
+	opacity: 1;
+}
+.list-bottom{
+	position: relative;
+    width: 100%;
+    height: 44px;
+    background-color: #FFFFFF;
+}
+.list-bottom img{
+	margin-top: 10px;
+}
+.list-bottom span{
+	display: inline-block;
+   vertical-align: middle;
+    text-align: left;
+    line-height: 44px;
+    font-family: Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin-left: 10px;
+    height: 44px;
+}
+.page{
+	margin-top: 20px;
+}
+.page li{
+	color: white;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 100%;
+	background-color: #4ab344;
+	-webkit-transition: all .3s ease-in-out .1s;
+    transition: all .3s ease-in-out .1s;
+}
+.page li.active{
+	background-color: #2B542C;
+}
+.page li:hover{
+	padding-top: 10px;
+	line-height: 15px;
+	background-color: #2B542C;
+}

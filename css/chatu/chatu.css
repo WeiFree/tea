@@ -1,0 +1,20 @@
+#demo {
+  margin: auto;
+  position: relative;
+}
+ 
+.box {
+		transition: all 1s;
+  float: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  box-shadow: 0 0 8px #ccc;
+}
+ 
+.box:hover { box-shadow: 0 0 10px #999; }
+ 
+.box img {
+	transition: all 1s;
+	 width: 200px; 
+	 }   
